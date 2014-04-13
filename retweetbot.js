@@ -66,7 +66,6 @@ if (Meteor.isServer) {
                     // for safety reasons you need to uncomment the Twit.post and closing brackets
                     //Twit.post('statuses/update', { status: tweetThis }, function(err, reply) {
                         console.log('I tweet this: ' + tweetThis);
-                        id = parseInt(id)+1;
                     //})
 
                     if (parseInt(tweets[i].id) > parseInt(lastTweetId)) {
