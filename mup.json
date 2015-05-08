@@ -1,9 +1,8 @@
 {
   // Server authentication info
-  "servers": [
-  {
-    "host": "host.example.org",
-    "username": "user",
+  "servers": [{
+    "host": "tweetbot.yauh.de",
+    "username": "admin",
     //"password": "password"
     // or pem file (ssh based authentication)
     "pem": "~/.ssh/id_rsa"
@@ -25,11 +24,10 @@
   "appName": "meteortweetbot",
 
   // Location of app (local directory)
-  "app": "/Users/user/code/github/tweetbot",
+  "app": "/Users/stephan/code/github/tweetbot",
 
   // Configure environment
-  "env":
-  {
+  "env": {
     "ROOT_URL": "http://no-url-needed.org",
     "MONGO_URL": "mongodb://mongouser:password@localhost:27017/tweetsdb",
     "PORT": "1234"
